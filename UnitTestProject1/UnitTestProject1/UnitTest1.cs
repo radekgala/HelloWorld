@@ -8,8 +8,9 @@ namespace UnitTestProject1
     {
         [TestMethod]
         public void TestMethod1()
-        {
+        { //new assert on Master branch
             Assert.IsTrue(true);
+
         }
     }
 }
