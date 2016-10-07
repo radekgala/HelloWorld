@@ -10,7 +10,7 @@ namespace UnitTestProject1
         public void TestMethod1()
         { //test branch
             Assert.IsTrue(true);
-
+            
         }
     }
 }
