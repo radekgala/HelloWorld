@@ -1,0 +1,9 @@
+language: csharp
+solution: ./UnitTestProject1/UnitTestProject1.sln
+install:
+  - sudo apt-get install -y gtk-sharp2
+  - nuget restore ./UnitTestProject1/UnitTestProject1.sln
+  
+  script:
+  - xbuild /p:Configuration=Release ./UnitTestProject1/UnitTestProject1.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./UnitTestProject1/UnitTestProject1/bin/Release/UnitTestProject1.dll
