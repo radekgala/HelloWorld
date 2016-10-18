@@ -16,7 +16,7 @@ namespace UnitTestProject1
         [Test]
         public void TestMethodFail()
         { //test branch
-            Assert.IsTrue(false);
+            Assert.IsTrue(true);
 
         }
     }
