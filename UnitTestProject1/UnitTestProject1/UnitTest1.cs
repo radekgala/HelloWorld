@@ -1,13 +1,20 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
+using NUnit.Framework;
 namespace UnitTestProject1
 {
-    [TestClass]
+
+    [TestFixture]
     public class UnitTest1
     {
-        [TestMethod]
-        public void TestMethod1()
+        [Test]
+        public void TestMethodPass()
+        { //test branch
+            Assert.IsTrue(true);
+            
+        }
+        [Test]
+        public void TestMethodFail()
         { //test branch
             Assert.IsTrue(true);
 
