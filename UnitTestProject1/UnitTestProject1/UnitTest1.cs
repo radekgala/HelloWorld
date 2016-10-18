@@ -8,10 +8,16 @@ namespace UnitTestProject1
     public class UnitTest1
     {
         [Test]
-        public void TestMethod1()
+        public void TestMethodPass()
         { //test branch
             Assert.IsTrue(true);
             
+        }
+        [Test]
+        public void TestMethodFail()
+        { //test branch
+            Assert.IsTrue(false);
+
         }
     }
 }
