@@ -9,6 +9,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         { //test 
+            //stage not include
             Assert.IsTrue(true);
 
         }
