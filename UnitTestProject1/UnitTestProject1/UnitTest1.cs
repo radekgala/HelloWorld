@@ -18,6 +18,6 @@ namespace UnitTestProject1
         { //test branch
             Assert.IsTrue(true);
 
-        }//resolve issue
+        }//resolve issue #2
     }
 }
